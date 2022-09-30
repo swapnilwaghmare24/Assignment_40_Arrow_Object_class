@@ -56,7 +56,6 @@ class EmployeePayroll {
             throw 'Gender must only from (M, F, O)';
         }
     }
-
     get startDate() {
         return this._startDate;
     }
