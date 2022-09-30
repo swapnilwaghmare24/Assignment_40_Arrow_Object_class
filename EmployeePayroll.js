@@ -49,6 +49,7 @@ class EmployeePayroll {
         return this._gender;
     }
 
+
     set gender(gender) {
         if (gender == 'M' || gender == 'F' || gender == 'O') {
             this._gender = gender;
